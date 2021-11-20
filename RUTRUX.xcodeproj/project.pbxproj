@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		690BC7CD8A9311F166C4E318 /* Pods_RUTRUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BC31D3CBFD8897BD8BCF7D /* Pods_RUTRUX.framework */; };
+		F661FE542748A66F0039E19C /* crearusuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661FE532748A66F0039E19C /* crearusuarioViewController.swift */; };
 		F665A0B72747204A008A121A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665A0B62747204A008A121A /* AppDelegate.swift */; };
 		F665A0B92747204A008A121A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665A0B82747204A008A121A /* SceneDelegate.swift */; };
-		F665A0BB2747204A008A121A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665A0BA2747204A008A121A /* ViewController.swift */; };
+		F665A0BB2747204A008A121A /* iniciarsesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665A0BA2747204A008A121A /* iniciarsesionViewController.swift */; };
 		F665A0BE2747204A008A121A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665A0BC2747204A008A121A /* Main.storyboard */; };
 		F665A0C12747204A008A121A /* RUTRUX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F665A0BF2747204A008A121A /* RUTRUX.xcdatamodeld */; };
 		F665A0C327472056008A121A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F665A0C227472056008A121A /* Assets.xcassets */; };
@@ -23,10 +24,11 @@
 		62BC31D3CBFD8897BD8BCF7D /* Pods_RUTRUX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUTRUX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF5E5034E6956DA38FB6095 /* Pods-RUTRUX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUTRUX.debug.xcconfig"; path = "Target Support Files/Pods-RUTRUX/Pods-RUTRUX.debug.xcconfig"; sourceTree = "<group>"; };
 		EA651378A8F16481B8E9A4B7 /* Pods-RUTRUX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUTRUX.release.xcconfig"; path = "Target Support Files/Pods-RUTRUX/Pods-RUTRUX.release.xcconfig"; sourceTree = "<group>"; };
+		F661FE532748A66F0039E19C /* crearusuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crearusuarioViewController.swift; sourceTree = "<group>"; };
 		F665A0B32747204A008A121A /* RUTRUX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUTRUX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665A0B62747204A008A121A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F665A0B82747204A008A121A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F665A0BA2747204A008A121A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F665A0BA2747204A008A121A /* iniciarsesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarsesionViewController.swift; sourceTree = "<group>"; };
 		F665A0BD2747204A008A121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F665A0C02747204A008A121A /* RUTRUX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RUTRUX.xcdatamodel; sourceTree = "<group>"; };
 		F665A0C227472056008A121A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,8 +104,9 @@
 		F665A0CF274743D4008A121A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				F665A0BA2747204A008A121A /* ViewController.swift */,
+				F665A0BA2747204A008A121A /* iniciarsesionViewController.swift */,
 				F665A0D027474427008A121A /* verificacionViewController.swift */,
+				F661FE532748A66F0039E19C /* crearusuarioViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -224,8 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F665A0BB2747204A008A121A /* ViewController.swift in Sources */,
+				F665A0BB2747204A008A121A /* iniciarsesionViewController.swift in Sources */,
 				F665A0C12747204A008A121A /* RUTRUX.xcdatamodeld in Sources */,
+				F661FE542748A66F0039E19C /* crearusuarioViewController.swift in Sources */,
 				F665A0B72747204A008A121A /* AppDelegate.swift in Sources */,
 				F665A0D127474428008A121A /* verificacionViewController.swift in Sources */,
 				F665A0B92747204A008A121A /* SceneDelegate.swift in Sources */,
